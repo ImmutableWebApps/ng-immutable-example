@@ -13,8 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "deployUrl": "<%=deployUrl%>",
+            "baseHref": "<%=baseHref%>",
             "outputPath": "dist/ng-immutable-example",
-            "index": "src/index.html",
+            "index": "src/index.ejs",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",

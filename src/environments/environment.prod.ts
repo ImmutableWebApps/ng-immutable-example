@@ -1,3 +1,1 @@
-export const environment = {
-  production: true
-};
+export const environment = (window as any).env;
