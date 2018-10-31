@@ -59,6 +59,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+            "baseHref": "/",
+            "deployUrl": "",
             "browserTarget": "ng-immutable-example:build"
           },
           "configurations": {
