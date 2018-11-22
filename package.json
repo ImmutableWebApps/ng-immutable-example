@@ -1,6 +1,6 @@
 {
-  "name": "ng-immutable-example",
-  "version": "0.0.0",
+  "name": "@immutablewebapps/ng-immutable-example",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -13,10 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "deployUrl": "<%=deployUrl%>",
-            "baseHref": "<%=baseHref%>",
             "outputPath": "dist/ng-immutable-example",
-            "index": "src/index.ejs",
+            "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
@@ -39,6 +37,9 @@
               ],
               "optimization": true,
               "outputHashing": "all",
+              "deployUrl": "<%=deployUrl%>",
+              "baseHref": "<%=baseHref%>",
+              "index": "src/index.ejs",
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
