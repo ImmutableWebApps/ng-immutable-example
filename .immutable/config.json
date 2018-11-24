@@ -1,7 +1,5 @@
 {
     "deployUrl": "",
     "baseHref": "",
-    "env": {
-        "production": true
-    }
+    "env": {}
 }
